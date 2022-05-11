@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title> Practica multimedia - Audios </title>
+    <meta name="description" content="Una seccion de Formulario de videojuegos">
+    <meta name="keywords" content="Videojuegos, Formulario">
+    <meta name="author" content="Angel Edgardo Gamez Sanchez">
+    <style>
+
+    </style>
+</head>
+
+<body background="Fondos/FormularioHTML5/1366_2000.jpg" style="color: white;">
+    <b frameborder="0" style="background-color: white;">
+    <h1 style="background-color: black;"> Calculo de daño en Monster hunter </h1>
+    <nav>
+    <a href="Index.html"> Inicio </a> <br>
+    <a href="Imagenes.html"> Imagenes </a> <br>
+    <a href="MapaDeImagenes.html"> Mapa de imagenes </a> <br>
+    <a href="Objetos.html"> Objetos </a> <br>
+    <a href="Iframes.html"> Iframes </a> <br>
+    <a href="Videos.html"> Videos </a> <br>
+    <a href="Audios.html"> Audios </a> <br>
+    <a href="Formulario.html"> Formulario </a> <br>
+    <a href="FormulariosHTML5.html"> Formulario HTMl5 </a> <br>
+    </nav>
+    </b>
+    <br>
+    <br>
+    <form oninput="x.value=((parseFloat(DF.value)*parseFloat(Afilado.value))/parseFloat(Divisor.value))+(parseFloat(DE.value)*parseFloat(Afilado.value))">
+        <label for=""> Bono de afilado (
+            Amarillo = 0.75
+            Verde = 1
+            Azul = 1.0625
+            Blanco = 1.125
+            Morado = 1.2) </label><input type="number" id="Afilado" value="0.75"> <br>
+        <label for=""> Divisor por tipo de arma (
+            Ballestas = 1.2,
+            Espada y escudo = 1.4,
+            Lanza = 2.3,
+            Espada larga = 3.3,
+            Gran espada = 4.8,
+            Martillo = 5.2,
+            Hacha-espada = 5.4)</label><input type="number" id="Divisor" value="1.2"> <br>
+        <label for=""> Daño Fisico </label><input type="number" id="DF" value="0"> <br>
+        <label for=""> Daño Elemental </label><input type="number" id="DE" value="0">
+        <br> <label for=""> Daño </label> =
+        <output name="x" for="afilado Divisor DF DE"></output>
+    </form>
+
+</body>
+
+</html>
